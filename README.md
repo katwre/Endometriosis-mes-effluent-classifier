@@ -94,6 +94,7 @@ Endometriosis-mes-effluent-classifier/
     └── scvi_ref_model
       └── model.pt
     └── scvi_ref_model_stromal
+    └── stromal_DE_Endometriosis_vs_Control_GSE179640_RAW.csv
 ├── img/ # figures included in the readme
 ├── Pipfile # library dependencies
 ├── Pipfile.lock # library dependencies
