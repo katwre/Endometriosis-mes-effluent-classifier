@@ -44,7 +44,7 @@ The aim of this project was to build an end-to-end service in which users could 
 
 As a result, I revised my approach. I first analysed samples scRNA-seq provided by the integrated single-cell reference atlas of the human endometrium by of control patients and the ones with endometriosis (data provided by [Marečková et al, Nat Genet 56, 1925–1937 (2024)](https://doi.org/10.1038/s41588-024-01873-w)), trained a generative model on it, and then tested it using the three menstrual blood samples from patients with endometriosis to evaluate whether they could be classified as positive. This approach may help pinpoint key cell types and molecular changes linked to endometriosis and support the development of future non-invasive diagnostic tools based on classification. 
 
-Unfortunately, the predictions were too weak to be considered reliable - most likely due to both the limitations of the available data and my current lack of deeper biological domain knowledge about endometriosis. I plan to continue developing and refining this project in the future.
+At the moment the predictions just aren't reliable. I'll return to this once I figure out what’s missing in the data, find additional datasets that fit the project, and/or learn more about how endometriosis actually works.
 
 
 # Study Design and Computational Workflow
